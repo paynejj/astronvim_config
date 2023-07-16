@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
