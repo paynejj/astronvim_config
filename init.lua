@@ -60,7 +60,7 @@ return {
       mdx_analyzer = function()
         return {
           cmd = { "mdx-language-server", "--stdio" },
-          filetypes = { "mdx" },
+          filetypes = { "markdown.mdx" },
           root_dir = require("lspconfig.util").root_pattern "package.json",
         }
       end,
@@ -85,7 +85,7 @@ return {
     -- Set up custom filetypes
     vim.filetype.add {
       extension = {
-        mdx = "mdx",
+        mdx = "markdown.mdx",
       },
       -- filename = {
       --   ["Foofile"] = "fooscript",

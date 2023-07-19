@@ -14,4 +14,5 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
 }
