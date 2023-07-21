@@ -24,6 +24,7 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
   t = {
+    --Quickly exit terminal window without killing
     ["<leader><Esc>"] = { "<cmd>ToggleTerm<cr>" },
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,

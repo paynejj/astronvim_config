@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.test.neotest" },
