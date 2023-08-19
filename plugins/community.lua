@@ -7,6 +7,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
+  { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.bash" },
@@ -17,4 +18,5 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.test.nvim-coverage" },
 }
